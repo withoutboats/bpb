@@ -1,0 +1,25 @@
+cargo-features = ["edition", "rename-dependency"]
+
+[package]
+name = "bpb"
+version = "0.1.0"
+edition = "2018"
+authors = ["Without Boats <boats@mozilla.com>"]
+
+[dependencies]
+toml = "0.4.6"
+rand = "0.5.4"
+sha2 = "0.7.1"
+serde_derive = "1.0.70"
+serde = "1.0.70"
+hex = "0.3.2"
+failure = "0.1.1"
+
+[dependencies.pbp]
+version = "0.4.0"
+git = "https://github.com/withoutboats/pbp"
+features = ["dalek"]
+
+[dependencies.ed25519]
+package = "ed25519-dalek"
+version = "0.7.0"
