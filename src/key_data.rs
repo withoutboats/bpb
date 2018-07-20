@@ -1,5 +1,6 @@
 use std::time::SystemTime;
 
+use ed25519_dalek as ed25519;
 use failure::Error;
 
 use crate::config::Config;
