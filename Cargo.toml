@@ -2,6 +2,8 @@ cargo-features = ["edition", "rename-dependency"]
 
 [package]
 name = "bpb"
+description = "boats's personal barricade"
+license = "MIT OR Apache-2.0"
 version = "1.0.0"
 edition = "2018"
 authors = ["Without Boats <boats@mozilla.com>"]
