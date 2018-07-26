@@ -29,7 +29,7 @@ impl KeyData {
             &self.keypair,
             data,
             self.fingerprint(),
-            pbp::SigType::GenericCertification,
+            pbp::SigType::BinaryDocument,
             timestamp as u32,
         ))
     }
