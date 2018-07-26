@@ -6,8 +6,6 @@ do.
 
 # How to install
 
-Soon, this will be on crates.io. Then, you should do:
-
 ```
 cargo install bpb
 ```
